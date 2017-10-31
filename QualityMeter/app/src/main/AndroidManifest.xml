@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="n.aravindhan.qualitymeter">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_PRIVILEGED" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" />
+        <activity android:name=".Sample" />
+        <activity android:name=".Account" />
+        <activity android:name=".Profile" />
+        <activity android:name=".Harm" />
+        <activity android:name=".Fresh" />
+        <activity android:name=".Orange" />
+        <activity android:name=".Select" />
+        <activity android:name=".Scan" />
+        <activity android:name=".Mango" />
+        <activity
+            android:name=".Menu"
+            android:label="@string/title_activity_menu" />
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+        <activity android:name=".Apple" />
+        <activity android:name=".Chat"></activity>
+    </application>
+
+</manifest>

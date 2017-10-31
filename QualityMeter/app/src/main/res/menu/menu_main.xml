@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/account"
+        android:icon="@drawable/ic_account"
+        app:showAsAction="ifRoom"
+        android:title="Account">
+    </item>
+    <item
+        android:id="@+id/profile"
+        android:icon="@drawable/ic_profile"
+        app:showAsAction="ifRoom|withText"
+        android:title="Profile">
+    </item>
+</menu>

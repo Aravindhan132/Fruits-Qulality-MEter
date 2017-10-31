@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Quality Meter</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_menu">Menu</string>
+    <string-array name="number">
+        <item>Tomato</item>
+        <item>Orange</item>
+        <item>Lemon</item>
+    </string-array>
+</resources>
